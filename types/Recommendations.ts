@@ -1,0 +1,1 @@
+export type RecommendColorType = "white" | "yellow" | "red" | "green"
