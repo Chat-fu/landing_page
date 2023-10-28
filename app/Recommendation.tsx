@@ -11,9 +11,9 @@ export default function Recommendation({ title, color }: { title: string, color:
 
     return (
         <Link href="/what_is_chat-fu" >
-            <div className={`w-full h-[60px] border-2 rounded-xl shadow-sm p-[10px] flex justify-center items-center hover:shadow smoothe ${backgroundColors[color]}`}>
+            <button className={`w-full h-[60px] border-2 rounded-xl shadow-sm p-[10px] flex justify-center items-center hover:shadow smoothe ${backgroundColors[color]}`}>
                 <h1 className="w-fit text tracking-wide text-gray-800">{title}</h1>
-            </div>
+            </button>
         </Link>
     )
 }
